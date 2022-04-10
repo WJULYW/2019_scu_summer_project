@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body bgcolor="#a50880">
+		<!--创建一个注册表单-->
+		<form method="get" action="action.html">
+			<!--form套table-->
+			<table border="1" width="400" align="center">
+				<tr>
+					<td>用户名：</td>
+					<td><input type="text" class="input_text" id="username" value="admin" placeholder="请输入用户名" name="username" required /></td>
+				</tr>
+				<tr>
+					<td>密码：</td>
+					<td><input type="password" class="input_text" name="password" required /></td>
+				</tr>
+				<tr>
+					<td>性别：</td>
+					<td>
+						<input type="radio" name="s" value="男" checked />男
+						<input type="radio" name="s" value="女" />女	
+					</td>
+				</tr>
+				<tr>
+					<td>课程：</td>
+					<td>
+						<input type="checkbox" checked disabled />c
+						<input type="checkbox" />Java
+						<input type="checkbox" />Web
+					</td>
+				</tr>
+				<tr>
+					<td>头像：</td>
+					<td><input type="file" /></td>
+				</tr>
+				<tr>
+					<td>年龄：</td>
+					<td><input type="number" /></td>
+				</tr>
+				<tr>
+					<td>邮箱：</td>
+					<td><input type="email" /></td>
+				</tr>
+				<tr>
+					<td>简介：</td>
+					<td><textarea></textarea></td>
+				</tr>
+				<tr>
+					<td>城市：</td>
+					<td>
+						<select>
+							<option>四川</option>
+							<option>重庆</option>
+							<option>天津</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<input type="submit" value="注册" />
+						<input type="image" src="img/submit1.jpg" />
+						<input type="reset" />
+						<input type="button" />
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
